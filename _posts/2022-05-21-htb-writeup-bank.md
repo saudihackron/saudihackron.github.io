@@ -4,7 +4,7 @@ title: Lame - Hack The Box
 excerpt: "Bank is a relatively simple machine, however proper web enumeration is key to finding the
 necessary data for entry. There also exists an unintended entry method, which many users find
 before the correct data is located."
-date: 2022-05-21
+date: 2022-05-20
 classes: wide
 header:
   teaser: /assets/images/htb-writeup-bank/bank_logo.png
