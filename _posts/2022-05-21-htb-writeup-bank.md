@@ -1,13 +1,13 @@
 ---
 layout: single
-title: Lame - Hack The Box
-excerpt: "Bank is a relatively simple machine, however proper web enumeration is key to finding the
-necessary data for entry. There also exists an unintended entry method, which many users find
+title: Bank - Hack The Box
+excerpt: "Bank is a relatively simple machine, however proper web enumeration is key to finding then
+necessary data for entry. There also exists an unintended entry method, which many users finding
 before the correct data is located."
-date: 2022-05-20
+date: 2022-05-21
 classes: wide
 header:
-  teaser: /assets/images/htb-writeup-bank/bank_logo.png
+  teaser: /assets/images/htb-writeup-bank/bank_logo_png
   teaser_home_page: true
   icon: /assets/images/hackthebox.webp
 categories:
@@ -20,14 +20,15 @@ tags:
   - hashcat
   - rules
 ---
+
 ![](/assets/images/htb-writeup-bank/bank_logo_png)
+
 ---
 
 SYNOPSIS
 Bank is a relatively simple machine, however proper web enumeration is key to finding the
 necessary data for entry. There also exists an unintended entry method, which many users find
 before the correct data is located.
-
 
 **Skills Required**
 - Basic knowledge of Linux
@@ -133,10 +134,10 @@ Total requests: 220560
 ID           Response   Lines    Word       Chars       Payload                                                                       
 =====================================================================
 
-000000003:   302        188 L    319 W      7322 Ch     "# Copyright 2007 James Fisher"                                               
-000000001:   302        188 L    319 W      7322 Ch     "# directory-list-2.3-medium.txt"                                             
+000000003:   302        188 L    319 W      7322 Ch     "# Copyright 2007 James Fisher"
+000000001:   302        188 L    319 W      7322 Ch     "# directory-list-2.3-medium.txt"
 000000007:   302        188 L    319 W      7322 Ch     "# license, visit http://creativecommons.org/licenses/by-sa/3.0/"             
-000000291:   301        9 L      28 W       304 Ch      "assets"                                                                     
+000000291:   301        9 L      28 W       304 Ch      "assets"
 000000014:   302        188 L    319 W      7322 Ch     "http://bank.htb/"                                                           
 000000013:   302        188 L    319 W      7322 Ch     "#"                                                                           
 000000012:   302        188 L    319 W      7322 Ch     "# on at least 2 different hosts"                                             
