@@ -1,11 +1,8 @@
 ---
 layout: single
-title: Blocky - Hack The Box
-excerpt: "Blocky is fairly simple overall, and was based on a real-world machine. It demonstrates the risks of bad password practices
-as well as exposing internal files on a public facing system. On top of this,
-it exposes a massive potential attack vector: Minecraft. Tens of thousands of servers exist that are publicly accessible,
-with the vast majority being set up and configured by young and inexperienced system administrators."
-date: 2022-05-21
+title: Blocky - Hack The Box 
+excerpt: "Blocky is fairly simple overall, and was based on a real-world machine. It demonstrates the risks of bad password practices as well as exposing internal files on a public facing system. On top of this" 
+date: 2022-05-19
 classes: wide
 header:
   teaser: /assets/images/htb-writeup-blocky/blocky_logo.png

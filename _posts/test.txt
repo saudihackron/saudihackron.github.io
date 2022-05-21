@@ -1,0 +1,24 @@
+---
+layout: single
+title: 
+excerpt: 
+date: 2022-05-19
+classes: wide
+header:
+  teaser: /assets/images/htb-writeup-/_logo.png
+  teaser_home_page: true
+  icon: /assets/images/hackthebox.webp
+categories:
+  - hackthebox
+  - infosec
+tags:  
+  - osticket
+  - mysql
+  - mattermost
+  - hashcat
+  - rules
+---
+
+![](/assets/images/htb-writeup-/_logo.png)
+
+---
